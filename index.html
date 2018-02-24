@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="Bangladesh-128.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Travelling in Bangladesh
+    </title>
+
+    <style>
+        body {
+            background-image: url("bg8.jpg");
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color:black ;text-align:center">Travelling in Bangladesh</h1>
+    </header>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Divisions</a>
+            <div class="dropdown-content">
+                <a href="dhaka.html">Dhaka</a>
+                <a href="chittagong.html">Chittagong</a>
+                <a href="rajshahi.html">Rajshahi</a>
+                <a href="khulna.html">Khulna</a>
+                <a href="barisal.html">Barisal</a>
+                <a href="sylhet.html">Sylhet</a>
+                <a href="rongpur.html">Rangpur</a>
+                <a href="mymensingh.html">Mymensingh</a>
+            </div>
+        </li>
+        <li class="none"><a href="rivers.html" class="dropbtn">Rivers in Bangladesh</a>
+        </li>
+        <li class="none"><a href="Airports.html" class="dropbtn">Airports</a>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Hotels in Bangladesh</a>
+            <div class="dropdown-content">
+                <a href="dhakah.html">Dhaka</a>
+                <a href="chittagongh.html">Chittagong</a>
+                <a href="rajshahih.html">Rajshahi</a>
+                <a href="khulnah.html">Khulna</a>
+                <a href="barisalh.html">Barisal</a>
+                <a href="sylheth.html">Sylhet</a>
+                <a href="rongpurh.html">Rangpur</a>
+                <a href="mymensinghh.html">Mymensingh</a>
+            </div>
+        </li>
+        <li class="none"><a href="specialities.html" class="dropbtn">Specialities of Bangladesh</a>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About us</a>
+            <div class="dropdown-content">
+                <a href="shojib.html">About Zobaer</a>
+                <a href="mridul.html">About Mridul</a>
+            </div>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <p style="color:black; font-family:Bahnschrift;font-size:29px;"> <b>  Happiness </b> needs no reason. This is what you'll feel when you come here.Things that you'll do, people that you'll meet will keep surprising you.Then you'll decide to be with the mystic wind.</p> <br> <br>
+    <p style="color:blue;font-size:44px;font-family:Trajan Pro;text-align:center"> Your mind is a traveller, now let your heart be the tourist guide.</p> <br> <br>
+    <p style="color:#blue;font-size:26px;text-align:center"> <b>Explore the land of surprises. </b> </p>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 8</div>
+            <a href="dhaka.html"><img src="Dhaka.jpg" style="width:700px;height:450px"></a>
+            <div class="text">DHAKA</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 8</div>
+            <a href="chittagong.html"><img src="Chittagong.png" style="width:700px;height:450px"></a>
+            <div class="text">CHITTAGONG</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <a href="rajshahi.html"><img src="Rajshahi.jpg" style="width:700px;height:450px"></a>
+            <div class="text">RAJSHAHI</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <a href="khulna.html"><img src="Khulna.png" style="width:700px;height:450px"></a>
+            <div class="text">KHULNA</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <a href="barisal.html"><img src="Barisal.png" style="width:700px;height:450px"></a>
+            <div class="text">BARISAL</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <a href="sylhet.html"><img src="Sylhet.jpg" style="width:700px;height:450px"></a>
+            <div class="text">SYLHET</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <a href="rongpur.html"><img src="Rangpur.png" style="width:700px;height:450px"></a>
+            <div class="text">RANGPUR</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <a href="mymensingh.html"><img src="Mymensingh.png" style="width:700px;height:450px"></a>
+            <div class="text">MYMENSINGH</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 4 seconds
+        }
+
+    </script>
+    <h1 style="color:black">Bangladesh, a land of nature </h1>
+
+    <p style="color:black;font-size:24px;">A country of gorgeous greenery on the shore of the Bay of Bengal.Bangladesh has some beautiful places like Sundarbans, Cox's Bazar and Kuakata Sea Beaches, Chittagong Hill Tracts etc. These places have extra-ordinary beauties which attract the tourists from home and abroad. From Kuakata, one can enjoy both sunrise and sunset from the same place.She green fields and fields overflowing with golden crops, the clear and cloudy sky, moonlit and pitch-dark night all these present scenes of romantic chearm and beauty. On the webpage we tried to effervesce the things for the better experience of tourists. </p>
+
+    <p style="text-align:center;">
+        <video width="750" height="420" controls>
+  <source src="Beautiful Bangladesh - Land Of Stories [720p].mp4" type="video/mp4">
+  </video> <br><br>
+
+        <style>
+            #myDIV {
+                width: 280px;
+                background-color: #4CAF50;
+                color: white;
+                -webkit-animation: mymove 5s infinite;
+                /* Chrome, Safari, Opera */
+                animation: mymove 5s infinite;
+            }
+            /* Chrome, Safari, Opera */
+            
+            @-webkit-keyframes mymove {
+                50% {
+                    width: 800px;
+                }
+            }
+            /* Standard syntax */
+            
+            @keyframes mymove {
+                50% {
+                    width: 500px;
+                }
+            }
+
+        </style>
+
+
+        <align="right">
+
+
+            <div id="myDIV">
+                <h1>Team_GSC</h1>
+            </div>
+
+
+
+            <style>
+                </p></body></html>

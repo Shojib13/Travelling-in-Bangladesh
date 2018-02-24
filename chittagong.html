@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="Bangladesh-128.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title> Travelling in Chittagong
+    </title>
+
+    <style>
+        body {
+            background-image: url("bg3.jpg");
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 style="color:black;text-align:center">Travelling in Chittagong</h1>
+    </header>
+    <ul>
+        <li><a class="none" href="index.html">Home</a></li>
+        <li class="dropdown active"><a href="javascript:void(0)" class="dropbtn">Divisions</a>
+            <div class="dropdown-content">
+                <a href="dhaka.html">Dhaka</a>
+                <a href="chittagong.html">Chittagong</a>
+                <a href="rajshahi.html">Rajshahi</a>
+                <a href="khulna.html">Khulna</a>
+                <a href="barisal.html">Barisal</a>
+                <a href="sylhet.html">Sylhet</a>
+                <a href="rongpur.html">Rangpur</a>
+                <a href="mymensingh.html">Mymensingh</a>
+            </div>
+        </li>
+        <li class="none"><a href="rivers.html" class="dropbtn">Rivers in Bangladesh</a>
+        </li>
+        <li class="none"><a href="Airports.html" class="dropbtn">Airports</a>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Hotels in Bangladesh</a>
+            <div class="dropdown-content">
+                <a href="dhakah.html">Dhaka</a>
+                <a href="chittagongh.html">Chittagong</a>
+                <a href="rajshahih.html">Rajshahi</a>
+                <a href="khulnah.html">Khulna</a>
+                <a href="barisalh.html">Barisal</a>
+                <a href="sylheth.html">Sylhet</a>
+                <a href="rongpurh.html">Rangpur</a>
+                <a href="mymensinghh.html">Mymensingh</a>
+            </div>
+        </li>
+        <li class="none"><a href="specialities.html" class="dropbtn">Specialities of Bangladesh</a>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">About us</a>
+            <div class="dropdown-content">
+                <a href="shojib.html">About Zobaer</a>
+                <a href="mridul.html">About Mridul</a>
+            </div>
+        </li>
+    </ul>
+    <br><br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 8</div>
+            <img src="alutilacave.jpg" style="width:700px;height:450px">
+            <div class="text">Altulia Cave</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 8</div>
+            <img src="Aronnak_Holiday_Cottage,_Rangamati10.jpg" style="width:700px;height:450px">
+            <div class="text">Rangamati</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <img src="buddhamandirbd.jpg" style="width:700px;height:450px">
+            <div class="text">Buddhamandir Bandarban</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <img src="Cox's_Bazar_sea_beach_01.jpg" style="width:700px;height:450px">
+            <div class="text">Cox's Bazar</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <img src="Nilachal,_Bandarban_(14903588097).jpg" style="width:700px;height:450px">
+            <div class="text">Nilachal Bandarban</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <img src="Nilgiri_Mountain_Railway_on_Bridge_May_2010.jpg" style="width:700px;height:450px">
+            <div class="text">Nilgiri Bandarban</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <img src="Patenga_sea_beach_2012.09.06_(3).jpg" style="width:700px;height:450px">
+            <div class="text">Patenga sea beach</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <img src="st-martin-carribean-island-aerial.jpg" style="width:700px;height:450px">
+            <div class="text">Saint Martin Island</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 4 seconds
+        }
+
+    </script>
+    <p style="color:black;font-size:28px;">
+        <b><u>Rangamati:</u></b><br> A small town located amongst the green hills, lakes and rivers of the Chittagong Hill Tracts. This is what makes it a prime Bangladesh hill destination. It is known as the Lake City of Bangladesh as this place is located on the bank of the beautiful Kaptai Lake.<br><br>
+        <b><u>Alutila Cave:</u></b><br> also called Alutila Mysterious Cave is a cave located in Matiranga Upazila in hill district of Khagrachari, Bangladesh. The cave formed inside the 1000-meter-high hill named Alutila (potato hill) or Arbari Hill. The hill area is surrounded by deep green forest. The cave is 100 meters long. It has a natural subway-like shape with cold water flowing at bottom. The cave is so dark that torches or locally sold flambeaux are used to see well enough to walk around the cave.<br><br>
+
+
+        <b><u>Cox's bazar:</u></b><br>The beach in Cox's Bazar is an unbroken 120 km (75 mi) sandy sea beach with a gentle slope, is the world's longest.It is located 150 km (93 mi) south of the industrial port Chittagong. Cox's Bazar is also known by the name Panowa, whose literal translation means "yellow flower." Its other old name was "Palongkee".oday, Cox's Bazar is one of the most-visited tourist destinations in Bangladesh, though it is not a major international tourist destination. In 2013, the Bangladesh Government formed the Tourist Police unit to better protect local and foreign tourists, as well as to look after the nature and wildlife in the tourist spots of Cox's Bazar. <br><br>
+
+        <b><u>Buddha Dhatu Jadi:</u></b><br>The Buddha Dhatu Jadi (also known as the Bandarban Golden Temple) is located close to Balaghata town, in Bandarban City, in Bangladesh. Dhatu are the material remains of a holy person, and in this temple the relics belong to Buddha. It is the largest Theravada Buddhist temple in Bangladesh and has the second-largest Buddha statue in the countryThe Bandaban Golden Temple belongs to the Theravada Buddhism order, which is practiced by the Marma indigenous people, a dominant ethnic group of Bandarban. It was built in 2000 in Arakanese architecture, an adoption of South East Asia style. <br><br>
+
+        <b><u>Patenga sea beach:</u></b><br>Patenga is a popular tourist spot. The beach is very close to the Bangladesh Naval Academy of the Bangladesh Navy and Shah Amanat International Airport. Its width is narrow and swimming in the seas is not recommended. Part of the seashore is built-up with concrete walls, and large blocks of stones have been laid to prevent erosion. During the 1990s, a host of restaurants and kiosks sprouted out around the beach area. Lighting of the area has enhanced the security aspect of visiting at night.<br> Nowadays, alcohol peddling is very common at the beach. Vendors from the city sell their ice creams, cold drinks and food to the hundreds of tourists who come to Patenga Beach. According to the local people, Patenga is the best place for delicious, mouth-watering street food at very low costs. One of the popular dishes of the food stands is the fried, spicy mud crab served with a small plate full of falafel, garnished with cucumber and onion. The beach has a wonderful cool atmosphere even at the evening, and people come to enjoy the soothing breeze. The beach is lined with massive shady palm trees and fishing boats. It also has an array of speed boats for visitors. The beach, however, is quite sandy, with a few rocky patches. <br><br>
+
+        <b><u>Saint Martin Island:</u></b><br>St. Martin's Island is a small island (area only 8 km2) in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. It is about 8 kilometres (5 miles) west of the northwest coast of Myanmar, at the mouth of the Naf River. The first settlement started 250 years ago by Arabian sailors who named the island 'Jazeera'. During British occupation the island was named St. Martin Island. During the First Anglo-Burmese War between the British and Burmese empires in 1824–1826, rival claims to the island were a major factor. The local names of the island are "Narikel jinjira"[3] which means 'Coconut Island' in Bengali, and "Daruchini Dwip". It is the only coral island in Bangladesh. <br><br>
+
+
+    </p>
+
+</body>
+
+</html>
